@@ -3,16 +3,21 @@ import IconButton from "@mui/material/IconButton";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import RemoveRedEyeIcon from "@mui/icons-material/RemoveRedEye";
 
-const TrendPropertyCard = () => {
+const PopularPropertyCard = () => {
   return (
-    <Stack className="trend-card-box">
+    <Stack className="popular-card-box">
       <Box
         className={"card-img"}
         style={{
           backgroundImage: `url("/img/banner/types/apartment.webp")`,
         }}
       >
-        <div>$420000</div>
+        <div className={"status"}>
+          <img src="/img/icons/electricity.svg" alt="" />
+          <span>top</span>
+        </div>
+
+        <div className={"price"}>$520000</div>
       </Box>
       <Box className={"info"}>
         <strong className="title">Run Will Building</strong>
@@ -51,4 +56,4 @@ const TrendPropertyCard = () => {
   );
 };
 
-export default TrendPropertyCard;
+export default PopularPropertyCard;

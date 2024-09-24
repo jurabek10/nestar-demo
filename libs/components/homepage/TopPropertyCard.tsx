@@ -3,9 +3,9 @@ import IconButton from "@mui/material/IconButton";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import RemoveRedEyeIcon from "@mui/icons-material/RemoveRedEye";
 
-const TrendPropertyCard = () => {
+const TopPropertyCard = () => {
   return (
-    <Stack className="trend-card-box">
+    <Stack className="top-card-box">
       <Box
         className={"card-img"}
         style={{
@@ -41,7 +41,7 @@ const TrendPropertyCard = () => {
             </IconButton>
             <Typography className="view-cnt">120</Typography>
             <IconButton color={"default"}>
-              <FavoriteIcon style={{ color: "red" }} />
+              <FavoriteIcon />
             </IconButton>
             <Typography className="view-cnt">200</Typography>
           </div>
@@ -51,4 +51,4 @@ const TrendPropertyCard = () => {
   );
 };
 
-export default TrendPropertyCard;
+export default TopPropertyCard;
