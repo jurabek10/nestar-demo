@@ -1,11 +1,11 @@
 import { Box, Divider, Stack, Typography } from "@mui/material";
 import IconButton from "@mui/material/IconButton";
-import RemoveRedEyeIcon from "@mui/icons-material/RemoveRedEye";
 import FavoriteIcon from "@mui/icons-material/Favorite";
+import RemoveRedEyeIcon from "@mui/icons-material/RemoveRedEye";
 
 const TrendPropertyCard = () => {
   return (
-    <Stack className="top-card-box">
+    <Stack className="trend-card-box">
       <Box
         className={"card-img"}
         style={{
