@@ -222,7 +222,7 @@ const Filter = () => {
         </Stack>
       </Stack>
       <Stack className="find-your-home">
-        <Typography className="title">Square meter</Typography>
+        <Typography className="title">Price Range</Typography>
 
         <Stack className="square-year-input">
           <input
